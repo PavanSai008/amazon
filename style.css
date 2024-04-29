@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-top:  2px;
+
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add{
+    color: antiquewhite;
+    padding: 5px;
+}
+.add-f{
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.add-s{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.add-s p{
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 625px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+}
+.nav-search-select
+{
+    background-color: #f3f3f3;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    width: 50px;
+    text-align: center;
+    border: none ;
+}
+.nav-search-input {
+    width: 100%;
+    font-size: 1rem ;
+    border: none ;
+}
+.nav-search-icon{
+    display: flex;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:  #febd68 ;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+    border-radius: 6px;
+}
+.nav-sigin{
+    padding: 5px;
+}
+span{
+    font-size: 0.7rem;
+    padding: 5px;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.nav-cart i{
+    font-size: 35px;
+    padding: 5px;
+}
+.nav-cart span{
+    font-size: 1rem;
+}
+.panel{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.panel-ops{
+    width: 70%;
+}
+.panel-deals{
+    font-weight: 500;
+}
+.panel-ops a{
+    padding: 6px;
+    margin-left: 15px;
+}
+.panel-deals p{
+    padding: 6px;
+}
+.panel-all{
+    padding: 6px;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: beige;
+    height: 40px;
+    width: 96%;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    color: #007185;
+}
+.fashion{
+    background-color: rgb(174, 174, 166);
+    height: 800px;
+    width: 400px;
+}
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 329px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.box-img{
+    background-size: cover;
+    height: 350px;
+    width: 90%;
+    margin-left: 15px;
+}
+.shop-sec h2 {
+    margin-left: 15px;
+}
+.shop-sec a{
+    margin-left: 15px;
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+}
+.foot2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    font-size: 0.80rem;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.foot3{
+    background-color:#131a22;
+    color: white;
+    font-size: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    height: 170px;
+
+}
+ul a{
+    display: block;
+}
+.foot4{
+    border-top: 1px solid white;
+    background-color:#131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.copy{
+    background-color:#131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+}
